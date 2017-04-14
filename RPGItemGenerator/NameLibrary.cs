@@ -120,12 +120,12 @@ namespace RPGItemGenerator
             return (T)v.GetValue(r.Next(v.Length));
         }
 
-        public ItemType getItemType()
+        public ItemType GetItemType()
         {
             return RandomEnumValue<ItemType>();
         }
 
-        public string getBaseNameForItemType(ItemType type)
+        public string GetBaseNameForItemType(ItemType type)
         {
             var itemList = nameDictionary[type];
             return itemList[r.Next(itemList.Count)];

@@ -19,8 +19,8 @@ namespace RPGItemGenerator
                 char c = Console.ReadKey().KeyChar;
                 if (!c.Equals('q'))
                 {
-                    ItemType type = lib.getItemType();
-                    i =new Item(lib.getBaseNameForItemType(type), type);
+                    ItemType type = lib.GetItemType();
+                    i =new Item(lib.GetBaseNameForItemType(type), type);
                 }
                 else
                 {
