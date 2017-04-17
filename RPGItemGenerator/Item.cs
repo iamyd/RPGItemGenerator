@@ -15,11 +15,11 @@ namespace RPGItemGenerator
         public double ChanceToHit { get; set; }
         public int PurchaseCost { get; set; }
         public int SellbyCost { get; set; }
+        public double strengthBoost { get; set; }
+        public double agilityBoost { get; set; }
+        public double intellectBoost { get; set; }
 
         public string name;
-        private double strengthBoost;
-        private double agilityBoost;
-        private double intellectBoost;
         private string baseName;
         private string suffix;
         private double damagePerSecond;

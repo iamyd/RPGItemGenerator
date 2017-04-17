@@ -15,6 +15,8 @@ namespace RPGItemGenerator
         double ChanceToHit { get; set; }
         int PurchaseCost { get; set; }
         int SellbyCost { get; set; }
-
+        double strengthBoost { get; set; }
+        double agilityBoost { get; set; }
+        double intellectBoost { get; set; }
     }
 }
