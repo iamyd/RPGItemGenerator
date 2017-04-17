@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPGItemGenerator
 {
-    class NameLibrary
+    public class NameLibrary
     {
         public Dictionary<ItemType, List<string>> nameDictionary = new Dictionary<ItemType, List<string>>();
 

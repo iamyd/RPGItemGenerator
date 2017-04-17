@@ -122,16 +122,16 @@ namespace RPGItemGenerator
             }
         }
 
-        public static string Getsuffix(double strengthBoost, double agilityBoost, double intellectBoost)
+        public static string Getsuffix(double StrengthBoost, double AgilityBoost, double IntellectBoost)
         {
-            double max3 = Math.Max(strengthBoost, Math.Max(agilityBoost, intellectBoost));
+            double max3 = Math.Max(StrengthBoost, Math.Max(AgilityBoost, IntellectBoost));
             if (max3 != 0)
             {
-                if (max3 == strengthBoost)
+                if (max3 == StrengthBoost)
                 {
                     return "of Strength";
                 }
-                else if (max3 == agilityBoost)
+                else if (max3 == AgilityBoost)
                 {
                     return "of Agility";
                 }
@@ -144,6 +144,10 @@ namespace RPGItemGenerator
             {
                 return "";
             }
+        }
+        public static int GetDodgeDifficulty(double speed)
+        {
+            return Convert.ToInt32(speed) * 10;
         }
     }
 }

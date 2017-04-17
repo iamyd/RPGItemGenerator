@@ -10,7 +10,7 @@ namespace RPGItemGenerator
     {
         static void Main(string[] args)
         {
-            NameLibrary lib = new NameLibrary();
+            NameLibrary l = new NameLibrary();
             while (true)
             {
 
@@ -19,8 +19,8 @@ namespace RPGItemGenerator
                 char c = Console.ReadKey().KeyChar;
                 if (!c.Equals('q'))
                 {
-                    ItemType type = lib.GetItemType();
-                    i =new Item(lib.GetBaseNameForItemType(type), type);
+                    ItemType type = l.GetItemType();
+                    i =new Item(l.GetBaseNameForItemType(type), type);
                 }
                 else
                 {

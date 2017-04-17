@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGItemGenerator", "RPGItemGenerator\RPGItemGenerator.csproj", "{74EA9E88-2B48-4698-9D2F-470F72BAFA9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFBattle", "C:\Users\YD\Downloads\WPFBattle\WPFBattle\WPFBattle.csproj", "{C2800542-5050-4E5A-BA80-C9651E5495FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74EA9E88-2B48-4698-9D2F-470F72BAFA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74EA9E88-2B48-4698-9D2F-470F72BAFA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74EA9E88-2B48-4698-9D2F-470F72BAFA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2800542-5050-4E5A-BA80-C9651E5495FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2800542-5050-4E5A-BA80-C9651E5495FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2800542-5050-4E5A-BA80-C9651E5495FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2800542-5050-4E5A-BA80-C9651E5495FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
