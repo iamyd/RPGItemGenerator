@@ -14,9 +14,7 @@
             </TextBox.Effect>
         </TextBox>
         <local:CharacterImage x:Name="Riku" HorizontalAlignment="Left" Height="100" Margin="100,252,0,0" VerticalAlignment="Top" Width="100" DeadImageSource="content/Riku_dead.png" IdleImageSource="content/Riku_idle.png" TakeDamageImageSource="content/Riku_hurt.png" AttackingImageSource="content/Riku_attack.png"/>
-        <local:CharacterImage x:Name="Flare" HorizontalAlignment="Left" Height="100" Margin="622,104,0,0" VerticalAlignment="Top" Width="100" AttackingImageSource="content/Flare_attack.png" IdleImageSource="content/Flare_idle.png" TakeDamageImageSource="content/Flare_hurt.png" IsManipulationEnabled="True" DeadImageSource="content/Flare_dead.png"/>
         <local:CharacterImage x:Name="Vexen" HorizontalAlignment="Left" Height="100" Margin="622,209,0,0" VerticalAlignment="Top" Width="100" AttackingImageSource="content/Vexen_attack.png" DeadImageSource="content/Vexen_dead.png" IdleImageSource="content/Vexen_idle.png" TakeDamageImageSource="content/Vexen_hurt.png"/>
-        <local:CharacterImage x:Name="Xenmas" HorizontalAlignment="Left" Height="100" Margin="622,309,0,0" VerticalAlignment="Top" Width="100" AttackingImageSource="content/Xenmas_attack.png" DeadImageSource="content/Xenmas_dead.png" IdleImageSource="content/Xenmas_idle.png" TakeDamageImageSource="content/Xenmas_hurt.png"/>
     </Grid>
 
 </Window>

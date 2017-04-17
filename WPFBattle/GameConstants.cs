@@ -13,7 +13,7 @@ namespace Du.RPGCore
         private int dodgeDifficulty = Item.DodgeDifficulty;
         private int damageRange = 10;
         private int damageBonus = Item.Damage;
-        private int playerHitpoints = 500;
+        private int playerHitpoints = 200;
 
         public static GameConstants instance = new GameConstants();
 

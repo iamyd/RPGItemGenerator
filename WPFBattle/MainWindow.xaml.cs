@@ -42,22 +42,14 @@ namespace WPFBattle
 
             playerParty.Add(player1);
 
-            ICharacter enemy1 = new MageSubclass("Flare", Flare);
-
-            enemyParty.Add(enemy1);
-
             ICharacter enemy2 = new MageSubclass("Vexen", Vexen);
             enemyParty.Add(enemy2);
-
-            ICharacter enemy3 = new MageSubclass("Xenmas", Xenmas);
-            enemyParty.Add(enemy3);
 
             ICombat combat = new Combat(playerParty, enemyParty, "Riku", "BadGuys");
 
             combatThread = new CombatThread(combat);
             combatThread.Start();
          }
-        //}
 
         private void Console_TextChanged(object sender, TextChangedEventArgs e)
         {
